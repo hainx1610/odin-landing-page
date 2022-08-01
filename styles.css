@@ -2,7 +2,7 @@ body {
     font-family: Roboto, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-
+    margin: 0;
 }
 
 a:hover, a:visited, a:link, a:active
@@ -51,7 +51,7 @@ h1 {
 
 .header-bottom button {
     color: #F9FAF8;
-    background-color: rgb(42, 42, 223);
+    background-color: #3882F6;
     border-radius: 5px;
     width: 100px;
     border: none;
