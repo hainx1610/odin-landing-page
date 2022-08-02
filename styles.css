@@ -77,7 +77,7 @@ h2 {
 .illustration {
     display: flex;
     justify-content: space-between;
-    margin: 0 100px;
+    margin: 0 100px 100px 100px;
     gap: 50px;
 }
 
@@ -95,4 +95,21 @@ h2 {
 
 .container .text {
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.quote .content {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .author {
+    text-align: right;
+    font-weight: bold;
 }
