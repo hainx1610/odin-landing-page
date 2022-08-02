@@ -42,7 +42,7 @@ a:hover, a:visited, a:link, a:active
     gap: 50px;
 }
 
-.header .bottom img {
+.header img {
     align-self: flex-start;
 }
 
@@ -53,17 +53,19 @@ h1 {
     margin: 0;
 }
 
-.right-links, .header .bottom p {
+.right-links, .header p, .call p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.header .bottom button {
+button {
     color: #F9FAF8;
     background-color: #3882F6;
     border-radius: 5px;
     width: 100px;
+    height: 30px;
     border: none;
+    font-weight: bold;
 }
 
 h2 {
@@ -112,4 +114,28 @@ h2 {
 .quote .author {
     text-align: right;
     font-weight: bold;
+}
+
+.box {
+    margin: 50px 100px;
+    padding: 50px 100px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call p {
+    margin: 0;
+}
+
+.call .heading {
+    font-weight: bold;
+}
+
+.call button {
+    border-color:#E5E7EB;
+    border-style:solid;
 }
